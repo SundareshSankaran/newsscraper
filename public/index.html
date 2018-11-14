@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>MoneyControlled !!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    
+  </head>
+  <body>
+
+      <nav class="navbar">
+          <span class="navbar-brand mb-0 h1"> Scraper  Homework with Axios and Cheerio</span>
+          <div class="float-right">
+          <a class="btn btn-primary" id="scrape-button">Scrape Articles from moneycontrol.com - get MoneyControlled!</a>
+          <!-- <a class="btn btn-primary" id="clear-button">Clear Articles</a> -->
+        </div>
+        </nav>
+
+        <div class="card text-center">
+            <div class="card-header">
+                New by sections
+              </div>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              
+              <div id="articles"></div>
+              <div id="notes"></div>
+
+                           
+            </div>
+            <div class="card-footer text-muted">
+              (c) fetched using a scraper on moneycontrol.com
+            </div>
+          </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
